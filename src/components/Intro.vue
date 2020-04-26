@@ -32,30 +32,40 @@ export default {
       parallaxElementWidth: 0,
       parallaxElementHeight: 0,
       scrollY: 0,
-      initialOffset: 0.5,
     };
   },
   computed: {
+    isMobile() {
+      return (window.innerWidth <= 920);
+    },
+    initialOffset() {
+      if (this.isMobile) return 0.3;
+      return 0.4;
+    },
+    startScrollAt() {
+      if (this.isMobile) {
+        return (this.elementPosition - window.innerHeight) + 1.2 * this.parallaxElementHeight;
+      }
+      return (this.elementPosition - window.innerHeight);
+    },
+    scrollTrackLength() {
+      if (this.isMobile) {
+        return window.innerHeight;
+      }
+      return window.innerHeight + this.parallaxElementHeight;
+    },
     percentageScrolled() {
-      /* eslint-disable max-len */
-      const startScrollAt = (this.elementPosition - window.innerHeight) + this.parallaxElementHeight;
-      const scrollTrackLength = window.innerHeight + this.parallaxElementHeight;
-      if (this.scrollY < startScrollAt) return 0;
-      const result = (this.scrollY - startScrollAt) / scrollTrackLength;
+      if (this.scrollY < this.startScrollAt) return 0;
+      const result = (this.scrollY - this.startScrollAt) / this.scrollTrackLength;
       if (result > 1) return 1;
       return result;
     },
-    offset() {
-      return window.innerWidth * this.initialOffset;
-    },
     transposition() {
-      /* eslint-disable max-len */
-      const base = this.parallaxElementWidth - this.offset;
-      return -1 * base * (1 - this.percentageScrolled);
+      return 1 - this.percentageScrolled - this.initialOffset;
     },
     parallaxStyle() {
       return {
-        right: `${this.transposition}px`,
+        transform: `translateX(${this.transposition * 100}%)`,
       };
     },
   },
@@ -79,7 +89,7 @@ export default {
     padding: 100px 0
 
   .spacer
-    height: 80vh
+    /*height: 40vh*/
 
   .supersize
     font-size: 300px
@@ -88,7 +98,7 @@ export default {
 
   .parallax
     position: absolute
-    transition: right 100ms ease-out
+    right: 0
 
   .parallax-container
     z-index: -1

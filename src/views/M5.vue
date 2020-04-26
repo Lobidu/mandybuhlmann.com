@@ -5,7 +5,7 @@
       <h2>m5</h2>
       <p class="callout limit-width">
         I created the logo for a local music studio called M5. The studio's branding is inspired
-        by their love for hip hop music and street art. And so is the final logo design.
+        by their love for hip hop music and street art, which I incorporated into the final logo design.
       </p>
       <p class="note">
         design: logo design, typography
@@ -16,37 +16,36 @@
       <div class="grid">
         <full-screen-image-container class="col-6 col-sm-12">
           <img
-            src="../assets/xl/m5-final-black.png"
+            src="../assets/lg/m5-teaser-landscape.png"
             srcset="
-              ../assets/sm/m5-final-black.png  600w,
-              ../assets/md/m5-final-black.png  960w,
-              ../assets/lg/m5-final-black.png 1200w,
-              ../assets/xl/m5-final-black.png 2560w
+              ../assets/sm/m5-teaser-landscape.png  600w,
+              ../assets/md/m5-teaser-landscape.png  960w,
+              ../assets/lg/m5-teaser-landscape.png 1200w,
+              ../assets/xl/m5-teaser-landscape.png 2560w
             "
-          />
-        </full-screen-image-container>
-        <full-screen-image-container class="col-6 row-2 col-sm-12">
-          <img
-            class=" object-cover"
-            src="../assets/xl/m5-bus-card.png"
-            srcset="
-              ../assets/sm/m5-bus-card.png  600w,
-              ../assets/md/m5-bus-card.png  960w,
-              ../assets/lg/m5-bus-card.png 1200w,
-              ../assets/xl/m5-bus-card.png 2560w
-            "
-          />
+          >
         </full-screen-image-container>
         <full-screen-image-container class="col-6 col-sm-12">
           <img
-            src="../assets/xl/m5-final-color.png"
+            src="../assets/lg/New_Teaser-M5-1.png"
             srcset="
-              ../assets/sm/m5-final-color.png  600w,
-              ../assets/md/m5-final-color.png  960w,
-              ../assets/lg/m5-final-color.png 1200w,
-              ../assets/xl/m5-final-color.png 2560w
+              ../assets/sm/New_Teaser-M5-1.png  600w,
+              ../assets/md/New_Teaser-M5-1.png  960w,
+              ../assets/lg/New_Teaser-M5-1.png 1200w,
+              ../assets/xl/New_Teaser-M5-1.png 2560w
             "
-          />
+          >
+        </full-screen-image-container>
+        <full-screen-image-container class="col-12">
+          <img
+            src="../assets/xl/M5_Business_Card.png"
+            srcset="
+              ../assets/sm/M5_Business_Card.png  600w,
+              ../assets/md/M5_Business_Card.png  960w,
+              ../assets/lg/M5_Business_Card.png 1200w,
+              ../assets/xl/M5_Business_Card.png 2560w
+            "
+          >
         </full-screen-image-container>
       </div>
     </section>

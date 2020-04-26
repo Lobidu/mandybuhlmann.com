@@ -21,9 +21,9 @@ const routes = [
     component: () => import('../views/SeeItAll.vue'),
   },
   {
-    path: '/janisaltherr',
-    name: 'janisaltherr',
-    component: () => import('../views/Janisaltherr.vue'),
+    path: '/lagarto',
+    name: 'lagarto',
+    component: () => import('../views/Lagarto.vue'),
   },
   {
     path: '/fkg',

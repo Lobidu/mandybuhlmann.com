@@ -1,8 +1,8 @@
 <template>
   <router-link :to="url">
-    <div class="container p-t-100 md-p-t-50">
-      <div class="columns">
-        <div>
+    <div class="p-t-100 md-p-t-50">
+      <div class="columns alternate-direction">
+        <div class="container">
           <div class="sticky">
               <h2>
                 {{title}}
@@ -47,9 +47,18 @@ export default {
 
   .columns
     display: grid
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 40% 60%
     grid-auto-rows: auto
     grid-gap: 50px
+
+
+  .page:nth-of-type(even)
+    .columns.alternate-direction
+      direction: rtl
+      grid-gap: 0
+
+      *
+        direction: ltr
 
   .center-elements
     display: flex

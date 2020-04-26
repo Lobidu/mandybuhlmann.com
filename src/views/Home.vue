@@ -13,11 +13,11 @@
     </preview>
     <preview
       class="page overlay"
-      title="m5"
-      description="logo design, typography"
-      url="/m5"
-      :src="m5Xl"
-      :srcset="getSrcSet(m5Sm, m5Md, m5Lg, m5Xl)"
+      title="lagarto"
+      description="brand design, logo design"
+      url="/lagarto"
+      :src="imgLagartoXl"
+      :srcset="getSrcSet(imgLagartoSm, imgLagartoMd, imgLagartoLg, imgLagartoXl)"
     >
     </preview>
     <preview
@@ -31,11 +31,11 @@
     </preview>
     <preview
       class="page overlay"
-      title="leaving impressions"
-      description="website design, concept design"
-      url="/janisaltherr"
-      :src="imgJanisXl"
-      :srcset="getSrcSet(imgJanisSm, imgJanisMd, imgJanisLg, imgJanisXl)"
+      title="m5"
+      description="logo design, typography"
+      url="/m5"
+      :src="m5Xl"
+      :srcset="getSrcSet(m5Sm, m5Md, m5Lg, m5Xl)"
     >
     </preview>
     <preview
@@ -57,28 +57,28 @@ import Intro from '../components/Intro.vue';
 import Preview from '../components/preview.vue';
 import SiteFooter from '../components/Footer.vue';
 
-import imgCampcraterXl from '../assets/xl/cc_teaser_02.png';
-import imgCampcraterLg from '../assets/lg/cc_teaser_02.png';
+import imgCampcraterXl from '../assets/xl/campcrater-teaser-landscape.png';
+import imgCampcraterLg from '../assets/lg/campcrater-teaser-landscape.png';
 import imgCampcraterMd from '../assets/md/cc_teaser_02.png';
 import imgCampcraterSm from '../assets/sm/cc_teaser_02.png';
 
-import imgJanisXl from '../assets/xl/janis_teaser_sq.png';
-import imgJanisLg from '../assets/lg/janis_teaser_sq.png';
-import imgJanisMd from '../assets/md/janis_teaser_sq.png';
-import imgJanisSm from '../assets/sm/janis_teaser_sq.png';
+import imgLagartoXl from '../assets/xl/lagarto-teaser-landscape.png';
+import imgLagartoLg from '../assets/lg/lagarto-teaser-landscape.png';
+import imgLagartoMd from '../assets/md/janis_teaser_sq.png';
+import imgLagartoSm from '../assets/sm/janis_teaser_sq.png';
 
-import imgFkgXl from '../assets/xl/FKG_Mockup_2.png';
-import imgFkgLg from '../assets/lg/FKG_Mockup_2.png';
+import imgFkgXl from '../assets/xl/fkg-teaser-landscape.png';
+import imgFkgLg from '../assets/lg/fkg-teaser-landscape.png';
 import imgFkgMd from '../assets/md/FKG_Mockup_2.png';
 import imgFkgSm from '../assets/sm/FKG_Mockup_2.png';
 
-import imgDsgnXl from '../assets/xl/misc-teaser.png';
-import imgDsgnLg from '../assets/lg/misc-teaser.png';
+import imgDsgnXl from '../assets/xl/misc-teaser-landscape.png';
+import imgDsgnLg from '../assets/lg/misc-teaser-landscape.png';
 import imgDsgnMd from '../assets/md/misc-teaser.png';
 import imgDsgnSm from '../assets/sm/misc-teaser.png';
 
-import m5Xl from '../assets/xl/m5-teaser.png';
-import m5Lg from '../assets/lg/m5-teaser.png';
+import m5Xl from '../assets/xl/m5-teaser-landscape.png';
+import m5Lg from '../assets/lg/m5-teaser-landscape.png';
 import m5Md from '../assets/md/m5-teaser.png';
 import m5Sm from '../assets/sm/m5-teaser.png';
 
@@ -96,10 +96,10 @@ export default {
       imgCampcraterLg,
       imgCampcraterMd,
       imgCampcraterSm,
-      imgJanisXl,
-      imgJanisLg,
-      imgJanisMd,
-      imgJanisSm,
+      imgLagartoXl,
+      imgLagartoLg,
+      imgLagartoMd,
+      imgLagartoSm,
       imgFkgXl,
       imgFkgLg,
       imgFkgMd,

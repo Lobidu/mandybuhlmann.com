@@ -5,8 +5,9 @@
       <h2>campcrater</h2>
       <p class="callout limit-width">
         As their co-founder, I created the branding and website design for Campcrater, a start-up
-        offering individual check-in solutions for campsites. Their mission is to offer more
-        flexibility to customers who arrive at campsites after closing hours.
+        offering individual check-in solutions for campsites. In my role as lead
+        designer, I was responsible for user experience, market research, target groups,
+        brand design, logo design, website and app design, illustrations.
       </p>
       <p class="note">
         design: logo, typography, illustration, website, mobile applications<br />

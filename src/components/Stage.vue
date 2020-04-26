@@ -1,16 +1,25 @@
 <template>
-  <div id="stage" class="home container">
-    <h1 id="title">mandybuhlmann</h1>
+  <div id="stage" class="home">
     <div class="vertical-center">
       <div class="annotation-root">
         <picture>
-          <source srcset="/spoon.svg" media="(max-width: 920px)">
-          <img src="/spoon2.svg" id="spoon"/>
+          <img src="../assets/xl/hand.jpg"
+               srcset="
+                ../assets/sm/hand.jpg  600w,
+                ../assets/md/hand.jpg  960w,
+                ../assets/lg/hand.jpg 1200w,
+                ../assets/xl/hand.jpg 2560w
+               "
+               id="hand"
+               alt="Picture of a hand made out of wood"/>
         </picture>
         <div class="annotation callout">
           The best design is the simplest one that works
         </div>
       </div>
+    </div>
+    <div class="container">
+      <h1 id="title">mandybuhlmann</h1>
     </div>
   </div>
 </template>
@@ -23,8 +32,7 @@ export default {
 
 <style scoped lang="sass">
   #stage
-    background: #0f5494
-    color: #c7bdb8
+    background: #efeff1
 
   .home
     height: 100vh
@@ -46,40 +54,70 @@ export default {
     top: 50px
     margin: 0
 
-  #spoon
-    width: 100%
+  #hand
+    display: block
+    width: 100vw
+    height: 100vh
+    max-width: 1200px
+    object-fit: cover
+    object-position: center
 
   .annotation-root
     position: relative
 
   .annotation
-    width: 30%
+    text-align: right
+    width: 27%
     position: absolute
-    padding-top: 100px
-    padding-left: 20px
-    border-left: 3px solid #c7bdb8
-    box-sizing: border-box
-    top: 50%
-    right: 0
+    padding-top: 20px
+    padding-left: 135px
+    border-top: 3px solid #222222
+    top: 65%
+    left: 50%
+
+  .callout
+    font-weight: bold
+    font-size: 34px
+    line-height: 40px
+
+  @media (max-width: 1145px)
+    .annotation
+      width: 22%
+
+    .callout
+      font-size: 30px
+      line-height: 36px
+
+  @media (max-width: 1040px)
+    .annotation
+      width: 25%
 
   @media (max-width: 920px)
-    #spoon
-      position: absolute
-      max-height: 70vh
-      bottom: 50px
-
     .annotation-root
       width: 100%
       height: 100%
 
     .annotation
-      text-align: right
-      width: 50%
+      width: 40%
       position: absolute
-      padding-top: 20px
+      padding-top: 50px
       padding-left: 20px
-      border-top: 3px solid #c7bdb8
-      border-left: none
-      top: 66%
-      left: 50%
+      border-top: none
+      border-left: 3px solid #222222
+      box-sizing: border-box
+      top: 70%
+      right: 0
+
+  @media (max-width: 760px)
+    .callout
+      font-size: 21px
+      line-height: 27px
+
+  @media (max-width: 350px)
+    .title
+      font-size: 29px
+
+    .callout
+      font-size: 16px
+      line-height: 22px
 </style>
