@@ -11,17 +11,42 @@ const routes = [
     component: Home,
   },
   {
+    path: '/campcrater',
+    name: 'campcrater',
+    component: () => import('../views/Campcrater.vue'),
+  },
+  {
+    path: '/see-it-all',
+    name: 'seeItAll',
+    component: () => import('../views/SeeItAll.vue'),
+  },
+  {
+    path: '/janisaltherr',
+    name: 'janisaltherr',
+    component: () => import('../views/Janisaltherr.vue'),
+  },
+  {
+    path: '/fkg',
+    name: 'frenchkissgang',
+    component: () => import('../views/FrenchKissGang.vue'),
+  },
+  {
+    path: '/m5',
+    name: 'm5',
+    component: () => import('../views/M5.vue'),
+  },
+  {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: () => import('../views/About.vue'),
   },
 ];
 
 const router = new VueRouter({
   routes,
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
 });
 
 export default router;
