@@ -4,7 +4,7 @@
     <section>
       <h2>lagarto</h2>
       <p class="callout limit-width">
-        Lagarto is a local electronics reseller, named after the spanish word for lizard.
+        Lagarto is a local electronics reseller, named after the Spanish word for lizard.
         I was hired to create a logo and brand design for them. Besides the digital icon,
         the final logo had to work as a stamp. I created an Amazon Storefront, including
         concept and key visuals.

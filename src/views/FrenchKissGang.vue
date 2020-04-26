@@ -5,8 +5,8 @@
       <h2>french kiss gang</h2>
       <p class="callout limit-width">
         French Kiss Gang is a group of local musicians who asked me to create apparel design
-        for them. Basis for the design was a picture graphic they use as a logo, so I
-        vectorized it and refined its design before using it as a pattern.
+        for them. Basis for the design was a picture graphic they use as a logo, which I
+        vectorized and optimized for printing.
       </p>
       <p class="note">
         design: apparel design
