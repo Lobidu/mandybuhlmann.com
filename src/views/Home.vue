@@ -2,13 +2,14 @@
   <div>
     <stage class="page"></stage>
     <intro class="page"></intro>
+
     <preview
       class="page overlay"
-      title="campcrater"
-      description="brand design, logo design, website design, and illustration"
-      url="/campcrater"
-      :src="imgCampcraterXl"
-      :srcset="getSrcSet(imgCampcraterSm, imgCampcraterMd, imgCampcraterLg, imgCampcraterXl)"
+      title="fkg"
+      description="store design, brand design, apparel design"
+      url="/fkg"
+      :src="imgFkgXl"
+      :srcset="getSrcSet(imgFkgSm, imgFkgMd, imgFkgLg, imgFkgXl)"
     >
     </preview>
     <preview
@@ -22,11 +23,11 @@
     </preview>
     <preview
       class="page overlay"
-      title="french kiss gang"
-      description="apparel design"
-      url="/fkg"
-      :src="imgFkgXl"
-      :srcset="getSrcSet(imgFkgSm, imgFkgMd, imgFkgLg, imgFkgXl)"
+      title="campcrater"
+      description="brand design, logo design, website design, and illustration"
+      url="/campcrater"
+      :src="imgCampcraterXl"
+      :srcset="getSrcSet(imgCampcraterSm, imgCampcraterMd, imgCampcraterLg, imgCampcraterXl)"
     >
     </preview>
     <preview
@@ -40,8 +41,8 @@
     </preview>
     <preview
       class="page overlay"
-      title="miscellaneous"
-      description="graphic design, sketching, illustration"
+      title="graphic design"
+      description="digital design, sketching, illustration"
       url="/see-it-all"
       :src="imgDsgnXl"
       :srcset="getSrcSet(imgDsgnSm, imgDsgnMd, imgDsgnLg, imgDsgnXl)"
@@ -67,10 +68,10 @@ import imgLagartoLg from '../assets/lg/lagarto-teaser-landscape.png';
 import imgLagartoMd from '../assets/md/janis_teaser_sq.png';
 import imgLagartoSm from '../assets/sm/janis_teaser_sq.png';
 
-import imgFkgXl from '../assets/xl/fkg-teaser-landscape.png';
-import imgFkgLg from '../assets/lg/fkg-teaser-landscape.png';
-import imgFkgMd from '../assets/md/FKG_Mockup_2.png';
-import imgFkgSm from '../assets/sm/FKG_Mockup_2.png';
+import imgFkgXl from '../assets/xl/fkg-new-teaser.png';
+import imgFkgLg from '../assets/lg/fkg-new-teaser.png';
+import imgFkgMd from '../assets/md/fkg-new-teaser-square.png';
+import imgFkgSm from '../assets/sm/fkg-new-teaser-square.png';
 
 import imgDsgnXl from '../assets/xl/misc-teaser-landscape.png';
 import imgDsgnLg from '../assets/lg/misc-teaser-landscape.png';

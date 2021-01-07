@@ -18,6 +18,7 @@
       <div class="grid">
         <full-screen-image-container class="col-12">
           <img
+            class="drop-shadow"
             src="../assets/xl/lagarto-mockup.png"
             srcset="
               ../assets/sm/lagarto-mockup.png  600w,
