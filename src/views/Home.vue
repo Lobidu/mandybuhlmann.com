@@ -58,10 +58,10 @@ import Intro from '../components/Intro.vue';
 import Preview from '../components/preview.vue';
 import SiteFooter from '../components/Footer.vue';
 
-import imgCampcraterXl from '../assets/xl/campcrater-teaser-landscape.png';
-import imgCampcraterLg from '../assets/lg/campcrater-teaser-landscape.png';
-import imgCampcraterMd from '../assets/md/cc_teaser_02.png';
-import imgCampcraterSm from '../assets/sm/cc_teaser_02.png';
+import imgCampcraterXl from '../assets/xl/Campcrater_new_teaser.png';
+import imgCampcraterLg from '../assets/lg/Campcrater_new_teaser.png';
+import imgCampcraterMd from '../assets/md/Campcrater_new_teaser.png';
+import imgCampcraterSm from '../assets/sm/Campcrater_new_teaser.png';
 
 import imgLagartoXl from '../assets/xl/lagarto-teaser-landscape.png';
 import imgLagartoLg from '../assets/lg/lagarto-teaser-landscape.png';
