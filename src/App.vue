@@ -93,6 +93,15 @@ section
 .overflow-visible
   overflow: visible
 
+.w-100
+  width: 100%
+
+.max-w-500
+  max-width: 500px
+
+.margin-auto
+  margin: auto
+
 .modal
   position: fixed
   top: 0

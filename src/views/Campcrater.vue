@@ -23,31 +23,63 @@
           final version
         </div>
       </div>
-      <div class="website showcase">
-        <full-screen-image-container class="column">
+      <div class="m-b-50">
+        <full-screen-image-container class="w-100">
           <img
-            src="../assets/xl/Campcrater_Home_purple-03-093-03-03.png"
-            class="obj-cover"
+            src="../assets/xl/Campcrater_new.png"
+            class="obj-cover w-100"
             srcset="
-              ../assets/sm/Campcrater_Home_purple-03-093-03-03.png  600w,
-              ../assets/md/Campcrater_Home_purple-03-093-03-03.png  960w,
-              ../assets/lg/Campcrater_Home_purple-03-093-03-03.png 1200w,
-              ../assets/xl/Campcrater_Home_purple-03-093-03-03.png 2560w
+              ../assets/sm/Campcrater_new.png  600w,
+              ../assets/md/Campcrater_new.png  960w,
+              ../assets/lg/Campcrater_new.png 1200w,
+              ../assets/xl/Campcrater_new.png 2560w
             "
           />
         </full-screen-image-container>
-        <full-screen-image-container class="column">
-          <img
-            src="../assets/xl/cc_teaser_02.png"
-            class="obj-cover"
-            srcset="
-              ../assets/sm/cc_teaser_02.png  600w,
-              ../assets/md/cc_teaser_02.png  960w,
-              ../assets/lg/cc_teaser_02.png 1200w,
-              ../assets/xl/cc_teaser_02.png 2560w
+      </div>
+      <div class="grid">
+        <div class="col col-4">
+          <full-screen-image-container class="max-w-500 margin-auto">
+            <img
+              src="../assets/xl/Mobile1.png"
+              class="obj-cover"
+              srcset="
+              ../assets/sm/Mobile1.png  600w,
+              ../assets/md/Mobile1.png  960w,
+              ../assets/lg/Mobile1.png 1200w,
+              ../assets/xl/Mobile1.png 2560w
             "
-          />
-        </full-screen-image-container>
+            />
+          </full-screen-image-container>
+        </div>
+        <div class="col col-4">
+          <full-screen-image-container class="max-w-500 margin-auto">
+            <img
+              src="../assets/xl/Mobile2.png"
+              class="obj-cover"
+              srcset="
+                ../assets/sm/Mobile2.png  600w,
+                ../assets/md/Mobile2.png  960w,
+                ../assets/lg/Mobile2.png 1200w,
+                ../assets/xl/Mobile2.png 2560w
+              "
+            />
+          </full-screen-image-container>
+        </div>
+        <div class="col col-4">
+          <full-screen-image-container class="max-w-500 margin-auto">
+            <img
+              src="../assets/xl/Mobile3.png"
+              class="obj-cover"
+              srcset="
+              ../assets/sm/Mobile3.png  600w,
+              ../assets/md/Mobile3.png  960w,
+              ../assets/lg/Mobile3.png 1200w,
+              ../assets/xl/Mobile3.png 2560w
+            "
+            />
+          </full-screen-image-container>
+        </div>
       </div>
     </section>
 
@@ -121,6 +153,17 @@
       <div class="grid m-b-50">
         <full-screen-image-container class="col col-3 col-md-6">
           <img
+            src="../assets/xl/Campcrater_Home_purple-03-093-03-03.png"
+            srcset="
+              ../assets/sm/Campcrater_Home_purple-03-093-03-03.png  600w,
+              ../assets/md/Campcrater_Home_purple-03-093-03-03.png  960w,
+              ../assets/lg/Campcrater_Home_purple-03-093-03-03.png 1200w,
+              ../assets/xl/Campcrater_Home_purple-03-093-03-03.png 2560w
+            "
+          />
+        </full-screen-image-container>
+        <full-screen-image-container class="col col-3 col-md-6">
+          <img
             src="../assets/xl/Campcrater_Home-04.png"
             srcset="
               ../assets/sm/Campcrater_Home-04.png  600w,
@@ -149,17 +192,6 @@
               ../assets/md/Campcrater_Home-05.png  960w,
               ../assets/lg/Campcrater_Home-05.png 1200w,
               ../assets/xl/Campcrater_Home-05.png 2560w
-            "
-          />
-        </full-screen-image-container>
-        <full-screen-image-container class="col col-3 col-md-6">
-          <img
-            src="../assets/xl/Campcrater_Home1.png"
-            srcset="
-              ../assets/sm/Campcrater_Home1.png  600w,
-              ../assets/md/Campcrater_Home1.png  960w,
-              ../assets/lg/Campcrater_Home1.png 1200w,
-              ../assets/xl/Campcrater_Home1.png 2560w
             "
           />
         </full-screen-image-container>
